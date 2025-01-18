@@ -65,7 +65,10 @@ between the variables:
 | **Cache References**     | 1,618,505,978            | 43,970,601               |
 | **Execution Time**       | 20.0423 seconds          | 4.5 seconds              |
 
+![Chart2](https://github.com/YS1306/Improving-Performance-of-a-Parallel-Program-on-a-multicore-system/blob/master/Chart3b.png)
+Fig 5.2. Comparison of Cache Accesses for each variable.
+
 ## Summary:
 - The modified program exhibits a significant increase in IPC (from 0.66 to 2.89), indicating better instruction throughput.
 - Cache references have decreased drastically from over 1.6 billion to just under 44 million, showing better memory access optimization.
-- The execution time has been reduced substantially, from 20.04 seconds to 4.5 seconds, reflecting an improvement of almost ### 4x.
+- The execution time has been reduced substantially, from 20.04 seconds to 4.5 seconds, reflecting more than 4 times improvement in the execution time.
